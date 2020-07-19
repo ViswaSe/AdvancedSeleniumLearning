@@ -1,0 +1,35 @@
+************************************************
+XPath - Types
+************************************************
+1. Absolute xpath
+2. Relative xpath
+
+Absolute - starts with root tag. 
+Relative  - starts with present tag.
+
+Types of relative xpath:
+1. Tag based relative xpath
+2. Text based relative xpath
+
+Tag based xpath => 
+	//tagName[@attributeName='Value'] 
+	//tagName[starts-with(@attributeName,'value')]
+	//tagName[ends-with(@attributeName,'value')]
+	//tagName[contains(@attributeName,'value')]
+
+TextBasedxpath =>
+	 //tagName[text()='value']
+	//tagName[contains(text(),'value')]
+
+Advanced xpath=>
+Interacts with child tag,parent tag and also with your sibling tag with the help of below 5 categories.
+	1. following 		=> (//tagName[@att.Name='value'])/following::tagName
+	2. following-sibling 	=> (//tagName[@att.Name='value'])/following-sibling::tagName
+	3. preceding		=> (//tagName[@att.Name='value'])/preceding::tagName
+	4. preceding-sibling	=> (//tagName[@att.Name='value'])/preceding::tagName[index]
+	5. collections		=> (//tagName[@att.Name='value'])[index]
+
+************************************************
+Property File Reader
+************************************************
+
