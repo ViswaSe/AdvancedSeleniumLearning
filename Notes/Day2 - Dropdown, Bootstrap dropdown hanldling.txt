@@ -1,0 +1,13 @@
+********************************************************
+Handling Dropdown via Select class in selenium
+********************************************************
+
+Select is the class in selenium present under "org.openqa.selenium.support.ui"
+
+1) selectByValue
+2) selectByIndex
+3) selectByVisibleText()
+4) getFirstSelectedOption() 	= this method helps to retrive the first option which is automatically get selected, if you select it via programmatically then it will retrive you
+				the value which is recently selected
+5) getOptions()		= this helps to retrive all the options present under the dropdown
+6) getSelectedOptions() 	= this will helps you to return all the selected options in the dropdown. 

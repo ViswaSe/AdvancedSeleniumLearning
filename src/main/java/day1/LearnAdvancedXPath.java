@@ -2,11 +2,18 @@ package day1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import leaftaps.base.LaunchApp;
 
 public class LearnAdvancedXPath extends LaunchApp{
+	
+	@BeforeClass
+	public void provideData()
+	{
+		url=prop.getProperty("testleaf_url");
+	}
 	
 	@Test
 	public void learnAdvancedXPath()

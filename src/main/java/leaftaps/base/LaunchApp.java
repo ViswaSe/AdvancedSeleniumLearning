@@ -4,21 +4,20 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
 public class LaunchApp {
 	
-	public static WebDriver driver;	
+	public static ChromeDriver driver;	
 	
 	BufferedReader reader;
-	Properties prop;
+	public Properties prop;
+	public static String url;
 	
-	@BeforeClass
+	@BeforeTest
 	public void readPropertyFile()
 	{
 		try {
@@ -36,7 +35,7 @@ public class LaunchApp {
 	{
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get(prop.getProperty("url"));
+		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}

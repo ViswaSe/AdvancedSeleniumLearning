@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day1.LearnAdvancedXPath">
+      <class name="day3.FullPageScreenshot">
         <methods>
+          <include name="provideData"/>
+          <include name="readPropertyFile"/>
           <include name="launchLeafOrgApplication"/>
+          <include name="takeFullPageScreenshot"/>
           <include name="closeBrowsers"/>
-          <include name="learnAdvancedXPath"/>
         </methods>
-      </class> <!-- day1.LearnAdvancedXPath -->
+      </class> <!-- day3.FullPageScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

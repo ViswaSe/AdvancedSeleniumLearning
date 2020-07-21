@@ -33,3 +33,17 @@ Interacts with child tag,parent tag and also with your sibling tag with the help
 Property File Reader
 ************************************************
 
+BufferedReader reader;
+Properties Prop; 
+
+public void readPropertyFile()
+{
+	reader 	= new BufferedReader(new FileReader("./config/Input.properties");
+	prop 	= new Properties();
+	prop.load(reader);  //Loading the file in your property object
+
+	//Get the property based on the key 
+	prop.getProperty("username");
+	prop.getProperty("password");
+	prop.getProperty("url");		
+}
