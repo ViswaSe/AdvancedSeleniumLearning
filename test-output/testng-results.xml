@@ -2,32 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17629" started-at="2020-07-21T07:20:02Z" finished-at="2020-07-21T07:20:20Z">
+  <suite name="Default suite" duration-ms="16902" started-at="2020-07-23T16:32:57Z" finished-at="2020-07-23T16:33:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17629" started-at="2020-07-21T07:20:02Z" finished-at="2020-07-21T07:20:20Z">
-      <class name="day3.FullPageScreenshot">
-        <test-method status="PASS" signature="readPropertyFile()[pri:0, instance:day3.FullPageScreenshot@bf9759]" name="readPropertyFile" is-config="true" duration-ms="17" started-at="2020-07-21T07:20:02Z" finished-at="2020-07-21T07:20:02Z">
+    <test name="Default test" duration-ms="16902" started-at="2020-07-23T16:32:57Z" finished-at="2020-07-23T16:33:14Z">
+      <class name="day4.HandlingCalendar">
+        <test-method status="PASS" signature="setDateInCalendar()[pri:0, instance:day4.HandlingCalendar@e26948]" name="setDateInCalendar" duration-ms="16858" started-at="2020-07-23T16:32:57Z" finished-at="2020-07-23T16:33:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readPropertyFile -->
-        <test-method status="PASS" signature="provideData()[pri:0, instance:day3.FullPageScreenshot@bf9759]" name="provideData" is-config="true" duration-ms="0" started-at="2020-07-21T07:20:02Z" finished-at="2020-07-21T07:20:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- provideData -->
-        <test-method status="PASS" signature="launchLeafOrgApplication()[pri:0, instance:day3.FullPageScreenshot@bf9759]" name="launchLeafOrgApplication" is-config="true" duration-ms="9578" started-at="2020-07-21T07:20:02Z" finished-at="2020-07-21T07:20:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchLeafOrgApplication -->
-        <test-method status="PASS" signature="takeFullPageScreenshot()[pri:0, instance:day3.FullPageScreenshot@bf9759]" name="takeFullPageScreenshot" duration-ms="7251" started-at="2020-07-21T07:20:12Z" finished-at="2020-07-21T07:20:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeFullPageScreenshot -->
-        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:day3.FullPageScreenshot@bf9759]" name="closeBrowsers" is-config="true" duration-ms="764" started-at="2020-07-21T07:20:19Z" finished-at="2020-07-21T07:20:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowsers -->
-      </class> <!-- day3.FullPageScreenshot -->
+        </test-method> <!-- setDateInCalendar -->
+      </class> <!-- day4.HandlingCalendar -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

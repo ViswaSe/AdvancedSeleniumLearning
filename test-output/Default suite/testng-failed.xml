@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day3.FullPageScreenshot">
+      <class name="day4.HandlingCalendar">
         <methods>
-          <include name="provideData"/>
-          <include name="readPropertyFile"/>
-          <include name="launchLeafOrgApplication"/>
-          <include name="takeFullPageScreenshot"/>
-          <include name="closeBrowsers"/>
+          <include name="setDateInCalendar"/>
         </methods>
-      </class> <!-- day3.FullPageScreenshot -->
+      </class> <!-- day4.HandlingCalendar -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

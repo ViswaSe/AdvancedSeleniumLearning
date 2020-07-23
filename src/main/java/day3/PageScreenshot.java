@@ -17,7 +17,8 @@ public class PageScreenshot extends LaunchApp {
 	@BeforeClass
 	public void provideData()
 	{
-		url = prop.getProperty("testleaf_url");
+		//url = prop.getProperty("testleaf_url");
+		url="https://getbootstrap.com/docs/4.0/components/dropdowns/";
 	}
 	
 	@Test
